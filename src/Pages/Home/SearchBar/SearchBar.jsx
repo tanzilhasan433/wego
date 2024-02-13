@@ -17,11 +17,11 @@ const SearchBar = () => {
                         </Tabs.Item>
 
                         <Tabs.Item title="Hotels" icon={<FaHotel size={20} />}>
-                            Dashboard content
+                            Hotel Content
                         </Tabs.Item>
 
                         <Tabs.Item title="Wego Pro Business" icon={<PiAirplaneInFlight size={20} />}>
-                            Settings content
+                            Wego pro business 
                         </Tabs.Item>
 
                         </Tabs>

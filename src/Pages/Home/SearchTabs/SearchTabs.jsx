@@ -1,5 +1,7 @@
 import { Tabs } from "keep-react";
 import OneWay from "../OneWay/OneWay";
+import RoundTrip from "../RoundTrip/RoundTrip";
+import MultiCity from "../MultiCity/MultiCity";
 
 const SearchTabs = () => {
     return (
@@ -12,12 +14,12 @@ const SearchTabs = () => {
                     </Tabs.Item>
                     <Tabs.Item title="Round Trip">
                         
-                        Round Trip
+                        <RoundTrip></RoundTrip>
                     
                     </Tabs.Item>
                     <Tabs.Item title="Multi City">
                         
-                        Multi City
+                        <MultiCity></MultiCity>
                         
                         </Tabs.Item>
                 </Tabs>
